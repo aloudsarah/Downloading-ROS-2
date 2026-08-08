@@ -14,11 +14,13 @@ this repository explains how to download ROS on ubuntu
   5- ########
 
 - Second Step: Installing WSL
-  type this command in your powershell
+  type this command in your powershell, this will install WSL
  ```bash
-content
+wsl --install
 ```
-  then type this command
-  ```wsl --install -d Ubuntu-22.04```
-after being downloading successfully restart your device
+  then type this command, this will install Ubuntu 22.04, make sure it is 22.04 otherwise ROS unbable to work
+  ```bash
+wsl --install -d Ubuntu-22.04
+```
+after being downloading successfully, **restart** your device
 
